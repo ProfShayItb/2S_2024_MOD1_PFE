@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags de formulário</title>
 </head>
+
 <body>
     <h1>Tags de formulário</h1>
 
@@ -35,8 +37,57 @@
 
             <h3>Fale sobre você:</h3>
             <textarea name="txtsobremim" id="txtsobremim" cols="30" rows="10"></textarea>
-
         </fieldset>
+
+        <fieldset>
+            <legend>Seletor</legend>
+
+            <h3>Hoje é:</h3>
+
+            <select name="seletor-dia" id="seletor-dia">
+                <option value="Segunda-feira">Segunda-feira</option>
+                <option value="Terça-feira">Terça-feira</option>
+                <option value="Quarta-feira">Quarta-feira</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Currículo</legend>
+
+            <h3>Envie seu currículo</h3>
+
+            <input type="file" id="file_curriculo">
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="button" value="Enviar">
+        <button>Enviar</button>
     </form>
+
+
+    <h2>Mídias</h2>
+
+    <h3>Inserindo arquivo de vídeo</h3>
+
+    <video controls width="200" ><!--height="100"-->
+        <source src="video.mp4" type="video/mp4">
+        <!-- <source src="video.ogg" type="video/ogg"> -->
+        Navegador não suporta o formato de vídeo.
+    </video>
+
+    <h3>Vídeo do Youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EM1xEUXeOn0?si=bGqSSxR_lnagTTwq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Inserindo áudio</h2>
+    <audio controls>
+        <source src="Vaquero Perdido - The Mini Vandals.mp3" type="audio/mpeg">
+        O Navegador não suporta esse formato de arquivo.
+    </audio>
+
+    <h2>Fazendo Download</h2>
+    <a href="apostila-html-css-javascript.pdf" download="Apostila">Clique aqui para baixar a apostila    </a>
+
 </body>
+
 </html>
