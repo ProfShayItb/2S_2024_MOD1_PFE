@@ -1,0 +1,23 @@
+/*Selecionando por tag*/
+
+p{
+    color: blue;
+}
+
+/*Selecionando por ID #nome  */
+
+#pdiferente{
+    color: red;
+}
+
+/*Selecionando por class .nome */
+
+.pdiferente2{
+    color: #656cd4;
+}
+
+/*nome da cor em inglês*/
+/*Hexadecimais #111111*/
+/*RGB - rba(200,200,200)*/
+/*HSL*/
+/*RGBA*/
