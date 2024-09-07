@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*tag, class, id*/
+        /*pseudo-classes - adicionam um estado especial ao elemento*/
+        a{
+            color: red;
+            text-decoration-line: underline;/*Decoração da linha-none, overline, underline, line-trhough */
+            text-decoration-color: rgb(48, 212, 48);/*cor da decoração*/
+            text-decoration-style: solid;/*Tracejado da linha - solid, dotted, dashed, double*/
+            text-decoration-thickness: 5px;/*Espessura da linha*/
+
+            /*shorthand
+                text-decoration: line color style thickness*/
+                text-decoration: underline green dashed 20px;
+
+        }
+        a:hover{
+            color: green;
+            font-size: 1.5rem;
+        }
+        a:visited{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <nav><!--menu de navegação-->
+        <a href="#">Link1</a><!--Ancora-->
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+    </nav>
+</body>
+</html>
