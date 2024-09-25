@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*#id, .class, tag*/
+p{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;/*normal, italic, oblique*/
+    font-weight: 500;/*ligther, bold, bolder, 100 a 900*/
+    color: #ff00ff;
+    font-size: 1.2em;/*Tamanho da fonte - px, %, em*/
+    font-variant: small-caps;/*normal, small-caps, inherit*/
+/*shorthand de fonte:
+    font: style variant weight size family;*/
+    font: italic small-caps 500 1.2rem "Roboto", sans-serif;
+    text-align: justify;/*Alinhamento de texto - center, left, right, justify*/
+    text-indent: 30px;/*Espaçamento de primeira linha de parágrafo*/
+
+    /*Padding - espaço dentro do elemento, dentro da caixa*/
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    
+    /*Shorthand*/
+    padding: 10px;/*4 lados do mesmo tamanho*/
+    padding: 10px 20px;/*(top-bottom) (right e left)*/
+    padding: 10px 30px 40px 50px;/*4 lados diferentes - Sentido horário(top right bottom left)*/
+    
+
+    border: 2px solid red;
+
+}
