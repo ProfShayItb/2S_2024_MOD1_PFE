@@ -77,15 +77,15 @@ img{
     }
 }
 
-@media(min-width: 600px){
+@media(min-width: 600px) {
     img{
         width: 100%;
     }
 }
 
-/* and(&&), or||, !*/
+/* and(&&), or||, !not */
 
-@media screen and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 600px){
     p{
         color: red;
     }
