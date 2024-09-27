@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*tag, .class, #id*/
+
+.container{
+    background-color: darkgrey;
+}
+
+.item{
+    width: 200px; /*Largura*/
+    height: 200px; /*altura*/
+    border: 2px solid black;/*shorthand border: largura estilo e cor*/
+    background-color: white;/*cor de fundo*/
+    font-size: 20px;/*tamanho da fonte*/
+    text-align: center;/*alinhamento do texto*/
+    line-height: 200px;/*altura da linha*/
+}
