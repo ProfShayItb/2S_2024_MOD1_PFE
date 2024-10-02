@@ -8,6 +8,14 @@
 
 .container{
     background-color: darkgrey;
+    min-height: 100vh;/*100% da altura do navegador*/
+    display: flex;/*flexível*/
+    flex-direction: row;/*Direção dos itens dentro da caixa - row, row-reverse, column, column-reverse*/
+    column-gap: 10px;/*Espaçamento na coluna entre os elementos*/
+    row-gap: 50px;/*Espaçamento entre as linhas*/
+
+
+
 }
 
 .item{
