@@ -13,8 +13,9 @@
     flex-direction: row;/*Direção dos itens dentro da caixa - row, row-reverse, column, column-reverse*/
     column-gap: 10px;/*Espaçamento na coluna entre os elementos*/
     row-gap: 50px;/*Espaçamento entre as linhas*/
-
-
+    justify-content: flex-start;/*Eixo principal -Alinhamento na horizontal quando está como linha, quando está como coluna alinhamento na vertical - center, space-between, space-around, flex-end, flex-start*/
+    align-items:center;/*Eixo transversal (perpendicular ou secundário) Quando está como linha - alinhamento na vertical, quando está como coluna ele alinha na horizontal*/
+   flex-wrap: wrap;/*Quebra de linha - nowrap wrap*/
 
 }
 
