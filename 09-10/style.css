@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*tag , .class, #id*/
+.container{
+    background-color: darkgray;
+    min-height: 100vh;
+    display: grid;/*Tipo grid*/
+   /* grid-template-columns: 1fr 2fr 1fr;Define a quantidade de colunas - % ou fr*/
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr ;
+    /*todas as colunas tem o mesmo tamanho(quantColunas, fr)*/
+    gap: 10px 20px;
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    /* grid-template-rows: 1fr 2fr 1fr; */
+    grid-auto-rows: minmax(300px, 100%);/*Altura da linha*/
+    grid-template-areas: 
+        "item1 item1 item1"
+        "item2 item2 item3"
+        "item4 item5 item5"
+        "item6 item6 item7"
+        "item6 item6 item8"
+        "item9 item9 item9"
+    
+    ;
+}
+
+.item{
+    background-color: #fff;
+    border: 2px solid #000;
+    font-size: 30px;
+}
+
+.item1{
+    /* grid-column: 1/4; */
+    grid-area: item1;
+}
+
+.item2{
+    /* grid-column: 1/3; */
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: 3;
+}
+
+.item4{
+    grid-area: 4;
+}
+
+.item5{
+    grid-column: 2/4;
+}
+
+.item6{
+    grid-column: 1/3;
+    grid-row:4/6;
+}
+
+.item8{
+    grid-column: 3/4;
+}
+
+.item9{
+    grid-column: 1/4;
+}
